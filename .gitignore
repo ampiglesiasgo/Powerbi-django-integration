@@ -1,0 +1,21 @@
+# Evitar subir entornos virtuales
+.venv/
+venv/
+ENV/
+
+# Archivos de base de datos locales
+*.sqlite3
+
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Evitar subir configuraciones de PyCharm
+.idea/
+
+# Archivos estáticos y migraciones
+staticfiles/
+media/
+migrations/
+# created by virtualenv automatically
+.venv/bin
